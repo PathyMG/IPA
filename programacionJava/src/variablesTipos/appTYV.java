@@ -20,14 +20,16 @@ public class appTYV {
         entero = 515;
         elige = true;
         soyUnaPalabra = "Todos somos muy dedicados";
-        soyDecimal = 14.94f;
+        soyDecimal = 14.96f;
         soyMuyPreciso = 145.146;
         soyUnCaracter = 'a';
 
-        int creado2016 = 3123891;
+        int creado2016 = 3123891, resultado;
 
-        System.out.println(dias + entero + soyMuyPreciso + soyUnaPalabra + soyDecimal + soyUnCaracter + " son algunas de las variables que se pueden presentar aqui " + elige);
+        resultado = (int) (entero * soyDecimal);
 
+        //System.out.println(dias + entero + soyMuyPreciso + soyUnaPalabra + soyDecimal + soyUnCaracter + " son algunas de las variables que se pueden presentar aqui " + elige);
+        System.out.println(resultado);
 
     }
 }
