@@ -14,7 +14,7 @@ public class principal {
         refrigerador miRefri = new refrigerador();
 
         //Impresion de las caracteristicas del objeto.
-        System.out.println("El refrigerador es " + miRefri.tamaño + ", es de color " + miRefri.color + ", y esta construido de " + miRefri.materialConstruccion + ".");
+        System.out.println("El refrigerador es " + miRefri.tamanio + ", es de color " + miRefri.color + ", y esta construido de " + miRefri.materialConstruccion + ".");
 
         //Acceso a los metodos del objeto.
         miRefri.estadoRefrigerador();

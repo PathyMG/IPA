@@ -9,9 +9,9 @@ public class principal {
 
         recipiente vasito = new recipiente();
 
-        System.out.println("Este vaso es " + vasito.tamaño + " y aparte es de color " + vasito.colorDeRecipiente + ".");
+        System.out.printf("Este vaso es %s y aparte es de color %s.%n", vasito.tamaño, vasito.colorDeRecipiente);
 
-        vasito.llenarRecipiente();
+        vasito.vaciarRecipiente();
         vasito.estadoDelRecipiente();
 
     }

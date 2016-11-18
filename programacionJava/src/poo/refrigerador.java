@@ -7,9 +7,9 @@ public class refrigerador {
 
     //Declaracion e inicializacion de atributos.
     String color = "beige";
-    String tamaño = "mediano";
+    String tamanio = "mediano";
     String materialConstruccion = "aluminio y plastico";
-    boolean onOff = true;                  //Indica si el refrigerador esta conectado a la luz, o bien encendido.
+    boolean onOff = true;                                       //Indica si el refrigerador esta conectado a la luz, o bien encendido.
 
     //Metodos.
     public void encenderRefrigerador() {
@@ -29,7 +29,7 @@ public class refrigerador {
         }
         else
         {
-            System.out.println("El refrigerador se esta descongelando.");
+            System.out.println("El refrigerador esta descongelando.");
         }
     }
 
